@@ -1,0 +1,42 @@
+#contenitore {
+	display: inline-block;
+	width: 100%;
+	border:1px solid;
+}
+
+#menu {
+	height:500px;
+	width: 300px;
+	float: left;
+	border-right: 6px solid red;
+	clear: left;
+}
+
+#menu menu li a {
+	text-decoration: none;
+	font-family: Georgia;
+}
+
+#content {
+	width: 900px;
+	float: right;
+	clear: right;
+}
+
+.indietro {
+	border:1px solid;
+  	font-size:22px;
+  	font-weight:bold;
+}
+
+table {
+	margin:0 auto;
+	border:1px dotted black;
+	padding:5px;
+	margin-top:60px;
+	margin-bottom: 100px;
+}
+
+table tr th {
+	font-width:bold;
+}
